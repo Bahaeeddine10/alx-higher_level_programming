@@ -1,4 +1,6 @@
 #include <list.h>
+#include <stdio.h>
+#include <stdlib.h>
 
 /**
  * palindrome - recursive palind or not
