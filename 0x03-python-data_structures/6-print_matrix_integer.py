@@ -7,4 +7,4 @@ def print_matrix_integer(matrix=[[]]):
             print()
         for i in range(len(xmatrix)):
             print("{:d}".format(xmatrix[i]), 
-                    end="\n" if i is len(xmatrix) - 1 else " ")
+                end="\n" if i is len(xmatrix) - 1 else " ")
