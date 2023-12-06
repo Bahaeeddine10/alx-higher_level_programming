@@ -1,8 +1,10 @@
-The ``1-my_list`` module
-============================
+Test for 1-my_list.py
+-------------------------------------------
 
-Using ``1-mylist``
----------------------
+case 0: import
+>>> MyList = __import__('1-my_list').MyList
+>>>
+-------------------------------------------
 
 case 1: common case
 
@@ -100,3 +102,4 @@ case 8: negative numbers
 >>> my_list.print_sorted()
 [-5, -1, 1, 5, 51]
 >>>
+
