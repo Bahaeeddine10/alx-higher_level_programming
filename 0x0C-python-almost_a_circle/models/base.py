@@ -22,3 +22,10 @@ class Base:
             return "[]"
         else:
             return dumps(list_dictionaries)
+
+    @staticmethod
+    def from_json_string(json_string):
+        """Return the deserialization of a JSON string."""
+        if json_string is None or not json_string:
+            return []
+        return loads(json_string)
